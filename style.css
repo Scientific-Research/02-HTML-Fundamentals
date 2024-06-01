@@ -43,3 +43,8 @@ li {
 footer p {
   font-size: 16px;
 }
+
+/* Uisng a nested descendant Selector => using article in addition to the header and p: only paragraph inside the header and header inside the article would be italic*/
+article header p {
+  font-style: italic;
+}
