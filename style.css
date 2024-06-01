@@ -1,37 +1,40 @@
 /* but at th end, when we have 500 line of CSS code, it is not a good idea to put all of them in head section and in index.html, that's why we define a separate CSS file as style.css => SEPARATION OF CONCERN*/
 
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: sans-serif; /*serif is default*/
+}
+
 h1 {
   /* color: blue; */
   font-size: 26px;
-  font-family: sans-serif;
   text-transform: uppercase;
   font-style: italic;
 }
 
 h2 {
   font-size: 40px;
-  font-family: sans-serif;
 }
 
 h3 {
   font-size: 30px;
-  font-family: sans-serif;
 }
 
 h4 {
   font-size: 20px;
-  font-family: sans-serif;
   text-transform: uppercase;
   text-align: center;
 }
 
 p {
   font-size: 22px;
-  font-family: sans-serif;
   line-height: 1.5; /* the space between the lines for every paragraph. By default, it is 1*/
 }
 
 li {
   font-size: 20px; /* default is 16px*/
-  font-family: sans-serif;
 }
