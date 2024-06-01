@@ -12,3 +12,9 @@ h2 {
   font-size: 40px;
   font-family: sans-serif;
 }
+
+p {
+  font-size: 22px;
+  font-family: sans-serif;
+  line-height: 1.5; /* the space between the lines for every paragraph. By default, it is 1*/
+}
