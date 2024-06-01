@@ -30,3 +30,8 @@ p {
   font-family: sans-serif;
   line-height: 1.5; /* the space between the lines for every paragraph. By default, it is 1*/
 }
+
+li {
+  font-size: 20px; /* default is 16px*/
+  font-family: sans-serif;
+}
