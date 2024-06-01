@@ -38,3 +38,8 @@ p {
 li {
   font-size: 20px; /* default is 16px*/
 }
+
+/*All the paragraphs only in footer get the font-size of 16px and not all the paragraphs in the code! => This is called: Descendant Selector*/
+footer p {
+  font-size: 16px;
+}
