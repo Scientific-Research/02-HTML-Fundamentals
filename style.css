@@ -40,7 +40,12 @@ li {
 }
 
 /*All the paragraphs only in footer get the font-size of 16px and not all the paragraphs in the code! => This is called: Descendant Selector*/
-footer p {
+/* footer p {
+  font-size: 16px;
+} */
+
+/* Instead of using above nested descendant Selector, I use id and it is simpler and easier to understand! */
+#copyright {
   font-size: 16px;
 }
 
@@ -52,4 +57,5 @@ footer p {
 /* Instead of using above nested descendant Selector, I use id and it is simpler and easier to understand! */
 #author {
   font-style: italic;
+  font-size: 18px;
 }
