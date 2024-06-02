@@ -45,6 +45,11 @@ footer p {
 }
 
 /* Uisng a nested descendant Selector => using article in addition to the header and p: only paragraph inside the header and header inside the article would be italic*/
-article header p {
+/* article header p {
+  font-style: italic;
+} */
+
+/* Instead of using above nested descendant Selector, I use id and it is simpler and easier to understand! */
+#author {
   font-style: italic;
 }
