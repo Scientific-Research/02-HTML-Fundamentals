@@ -64,3 +64,7 @@ li {
   font-size: 18px;
   font-weight: bold;
 }
+
+.related-posts {
+  list-style: none;
+}
