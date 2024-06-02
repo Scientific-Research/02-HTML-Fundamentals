@@ -1,5 +1,9 @@
 /* but at th end, when we have 500 line of CSS code, it is not a good idea to put all of them in head section and in index.html, that's why we define a separate CSS file as style.css => SEPARATION OF CONCERN*/
 
+body {
+  /* background-color: rgb(214, 203, 203); */
+}
+
 h1,
 h2,
 h3,
