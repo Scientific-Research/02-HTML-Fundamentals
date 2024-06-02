@@ -9,6 +9,12 @@ li {
   font-family: sans-serif; /*serif is default*/
 }
 
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
 h1 {
   /* color: blue; */
   font-size: 26px;
